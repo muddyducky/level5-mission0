@@ -6,7 +6,7 @@ export default function Body({ menuOpen }) {
     <div className={menuOpen ? styles.hideContent : styles.heroContainer}>
       {!menuOpen && (
         <div className={styles.background}>
-          <h1>" YOUR Vision , OUR Strategy , UNSTOPPABLE Growth " </h1>
+          <h1>"YOUR Vision , OUR Strategy , UNSTOPPABLE Growth" </h1>
 
           <form className={styles.searchbar}>
             <input type="text" />
