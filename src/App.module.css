@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.appContainer {
+    height: 100%;
+    width: 100vw;
+}
+
+.content {
+    padding: 20px;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    gap: 5vw;
+}
+
+@media(max-width: 480px){
+    .content {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
