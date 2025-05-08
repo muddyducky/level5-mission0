@@ -7,12 +7,13 @@
 .menu2Container,
 .menu1Container,
 .menu3Container {
-  background-color: palegoldenrod;
+  background: linear-gradient(to right, white, grey, white);
   color: black;
   height: 30vh;
   position: relative;
   top: 5vh;
   border: 1px solid black;
+  box-shadow: 3px 5px 8px grey;
 }
 
 .menu1Container img,
@@ -21,7 +22,7 @@
   padding: 20px;
   height: 25vh;
   width: 100%;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 .content {
@@ -36,6 +37,8 @@
   .menu1Container,
   .menu2Container,
   .menu3Container {
+    position: relative;
+    top: 20vh;
     display: flex;
     flex-direction: column;
     height: 60vh;
@@ -44,6 +47,5 @@
   .menu2Container img,
   .menu3Container img {
     height: 20vh;
-    padding-bottom: 10px;
   }
 }
