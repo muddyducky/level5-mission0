@@ -11,7 +11,7 @@ export default function Navbar({ setMenuOpen, menuOpen}) {
       <Link to='/'><h3> Marketing Association NZ</h3></Link>
       </div>
       <div className={styles.menu} onClick={()=> setMenuOpen(!menuOpen)}>
-        <img src="../../images/menuIcon.png" alt="menuIcon" />
+        <img src="../../images/menu.png" alt="menuIcon" />
       </div>
       <div className={`${styles.links} ${menuOpen ? styles.showLinks : ''}`}>
         <ul>
