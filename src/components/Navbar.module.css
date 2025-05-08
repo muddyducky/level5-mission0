@@ -98,6 +98,7 @@
   cursor: pointer;
 }
 
+/* Responsive mobile styling */
 @media (max-width: 480px) {
   .navContainer {
     position: sticky;
