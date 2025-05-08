@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 
-export default function Hero({ menuOpen }) {
+export default function Body({ menuOpen }) {
   return (
     <div className={menuOpen ? styles.hideContent : styles.heroContainer}>
       {!menuOpen && (

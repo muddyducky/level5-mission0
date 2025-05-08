@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router-dom";
-import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 
 export default function Navbar({ setMenuOpen, menuOpen }) {

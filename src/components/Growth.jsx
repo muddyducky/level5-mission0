@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Menu.module.css";
 
-export default function Menu3() {
+export default function Growth() {
   return (
     <div className={styles.menu3Container}>
       <img src="../../images/menu3Image.png" alt="" />
