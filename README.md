@@ -3,7 +3,7 @@
 ## 🌟 Overview
 Welcome to **Marketing Association NZ**, a dynamic **React-based web app** designed for seamless navigation and an engaging user experience. Built with **Vite**, this project is structured to be fast, efficient, and easy to maintain. 🚀
 
-## 🏗️ Tech Stack
+## 🏗️ Built with
 - ⚡ **React 19.1.0** – Component-based UI framework  
 - 🚀 **Vite** – Lightning-fast development & build tool  
 - 🛣️ **React Router** – Smooth page navigation  
