@@ -32,20 +32,20 @@ Welcome to **Marketing Association NZ**, a dynamic **React-based web app** desig
    git clone https://github.com/muddyducky/level5-mission0.git
    cd level5-mission0
 2. Avoid Accidental Pushes to Base Repository If you forked this repository, update your Git remote URL to push changes to your own repo:
-- git remote set-url origin https://github.com/your_username/repo_name.git
-- git remote -v  # Confirm the changes
+git remote set-url origin https://github.com/your_username/repo_name.git
+git remote -v  # Confirm the changes
   
-- Replace your_username with your GitHub username.
-- Replace repo_name with the name of your forked repository.
+Replace your_username with your GitHub username.
+Replace repo_name with the name of your forked repository.
   
 3. Install Dependencies
-- npm install
+npm install
 
 4. Run Development Server
-- npm run dev
+npm run dev
 
 5. Access app at
-- http://localhost:5173
+http://localhost:5173
 
 ## Deployment to Azure Static Web Apps
 This app is hosted on Azure, using GitHub Actions for CI/CD. Every push to the repository triggers an automatic deployment.
