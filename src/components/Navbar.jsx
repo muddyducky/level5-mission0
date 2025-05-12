@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
-// setMenuOpen and menuOpen initializes the state of the menu, passed as props from App jsx
+// menuOpen and setMenuOpen are passed as props from app.jsx 
 
 export default function Navbar({ setMenuOpen, menuOpen }) {
   return (
