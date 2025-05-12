@@ -20,6 +20,7 @@ body {
   display: flex;
   gap: 5vw;
   justify-content: center;
+  cursor: pointer;
 }
 
 @media (max-width: 480px) {

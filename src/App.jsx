@@ -6,7 +6,6 @@ import Vision from "./components/Vision";
 import Strategy from "./components/Strategy";
 import Growth from "./components/Growth";
 
-
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
