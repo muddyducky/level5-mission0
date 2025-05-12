@@ -74,6 +74,7 @@
   }
   .searchbar input,
   .searchbar button {
+    font-size: 12px;
     height: 5vh;
     width: 70vw;
   }

@@ -29,8 +29,7 @@
   padding: 20px;
   position: relative;
   bottom: 3vh;
-  height: 20vw;
-  font-size: 12px;
+  height: 20vw; 
 }
 
 @media (max-width: 480px) {
@@ -38,14 +37,22 @@
   .menu2Container,
   .menu3Container {
     position: relative;
-    top: 20vh;
+    top: 25vh;
+    left: 20vw;
+    margin-bottom: 5vh;
     display: flex;
     flex-direction: column;
     height: 60vh;
+    width: 50%;
+    
   }
   .menu1Container img,
   .menu2Container img,
   .menu3Container img {
     height: 20vh;
+  }
+
+  .content {
+    font-size: 12px;
   }
 }

@@ -16,7 +16,7 @@ function App() {
         setMenuOpen={setMenuOpen}
         className={styles.nav}
       />
-      <Body menuOpen={menuOpen} className={styles.hero} />
+      <Body menuOpen={menuOpen} className={styles.main}/>
 
       <div className={styles.content}>
         <Vision />

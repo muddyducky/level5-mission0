@@ -67,7 +67,8 @@
 .links > ul li a {
   color: black;
 }
-.links > ul li a:hover {
+.links > ul li a:hover,
+.links > ul li a.active {
   color: white;
 }
 
@@ -75,7 +76,8 @@
   align-content: center;
   text-align: center;
   background-color: red;
- 
+  color: white;
+
   height: 5vh;
   width: 8vw;
 }
@@ -128,7 +130,7 @@
     height: 5vh;
     width: 20vw;
   }
- 
+
   .active {
     display: block;
     text-align: center;

@@ -5,8 +5,8 @@ import styles from "./Body.module.css";
 export default function Body({ menuOpen }) {
   return (
 
-    // if menu is open, apply these styles if not apply these styles instead
-    <div className={menuOpen ? styles.hideContent : styles.heroContainer}>
+    // if menu is open, styles are applied to hide content, if closed  
+    <div className={menuOpen ? styles.hideContent : ""}>
 
       {/* If the menu is not open display this section otherwise hide it */}
       {!menuOpen && (
