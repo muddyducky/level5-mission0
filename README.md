@@ -1,87 +1,94 @@
-# Marketing Association NZ - Mission 0
+# Mission 0
+## Responsive Webpage
 
-## Overview
-Welcome to **Marketing Association NZ**, a dynamic **React-based web app** designed for seamless navigation and an engaging user experience. Built with **Vite**, this project is structured to be fast, efficient, and easy to maintain. 
+![mission0](https://github.com/user-attachments/assets/7cb79e08-3596-4865-a21e-7a9858ba1b4e)
 
+# About
+This is an easy to use React-based web app designed with navigation and interactive components to make it engaging for users.
+It is built using Vite which helps keep everything fast, efficient and simple to maintain. 
 
-##  Built With
--  **React 19.1.0** – Component-based UI framework  
--  **Vite** – Lightning-fast development & build tool  
--  **React Router** – Smooth page navigation  
--  **CSS Modules** – Scoped styling for cleaner UI  
--  **ESLint** – Code quality & linting  
--  **Azure Static Web Apps** – Hosting & CI/CD  
+---
 
+# Built With
+This project uses the following tools and technologies to make it work effectively:
 
-## Folder Structure
- level5-mission0
-├── public/                # Static assets (favicon, images)
-├── src/
-│   ├── components/        # UI components (Navbar, Body, Vision, Strategy, Growth)
-│   ├── styles/            # CSS Modules for styling
-│   ├── App.jsx            # Root component
-│   ├── main.jsx           # Entry point
-│   ├── routes/            # React Router configuration
-├── .github/workflows/     # GitHub Actions deployment
-├── package.json           # Dependencies & scripts
-├── README.md              # Project documentation
+- ## React (Version 19.1.0)
+  This framework allows us to build user interfaces using components which are reusable pieces of code.
 
-## Installation & Setup
-1. Clone the repo:
-   ```sh
+- ## Vite
+  Is a tool that speeds up development and helps speed up building time.
+
+- ## React Router
+  Helps users navigate between pages.
+
+- ## CSS Modules
+  Keeps styles organised and specific to their section of the site.
+
+- ## ES Lint
+  Helps developers write clean, error free code.
+
+- ## Azure Static Web Apps
+  Hosts the website online and applies updates automatically as they happen.
+
+---
+
+# Features
+
+## Responsive Navigation Bar
+The menu appears in its full form and collapses into a mobile friendly version when the screen size is reduced to 480 pixels.
+This helps with navigation on smaller devices. Users have access to information about Marketing Association, the services on offer and a list of contacts.
+
+![Responsive menu](https://github.com/user-attachments/assets/5e8d07cf-d126-4b44-9326-7be73ee81383)
+
+## Active Link Styling
+Highlights the current page in the menu
+
+## Interactive Search Bar
+Allows users to find relevant content within the app.
+
+## Content
+Informative sections they don't lead to anywhere at this point,, however these will be links to further information as suggested in the titles.
+
+---
+
+# Installation and Set Up
+
+## 1. Clone the Repository
+   First you need to download the project files and then move into that directory. 
+   Open your Terminal and run the following command:
+
    git clone https://github.com/muddyducky/level5-mission0.git
-   cd level5-mission0
-2. Avoid Accidental Pushes to Base Repository If you forked this repository, update your Git remote URL to push changes to your own repo:
-- git remote set-url origin https://github.com/your_username/repo_name.git
-- git remote -v  # Confirm the changes
+   cd level-5-mission0
   
-- Replace your_username with your GitHub username.
-- Replace repo_name with the name of your forked repository.
-  
-3. Install Dependencies
-- npm install
+## 2. Install Dependencies
+   Next you will install all the important tools needed to run the project.
+   Run the following command to begin install:
 
-4. Run Development Server
-- npm run dev
+   npm install
 
-5. Access app at
-- http://localhost:5173
+## 3. Start the Development Server
+   Now you can run the website locally on your computer by running the following command:
 
-## Deployment to Azure Static Web Apps
-This app is hosted on Azure, using GitHub Actions for CI/CD. Every push to the repository triggers an automatic deployment.
+   npm run dev
 
-Troubleshooting Deployments
- If changes aren’t appearing on your live site:
+## 4. View Website in your Browser
+   To view the website in your browser, click the link generated inside your terminal or
+   write the following into your browsers URL:
+   
+   http://localhost:5173
 
-Check GitHub Actions logs for errors
+---
 
-Verify Azure Static Web Apps settings
+# Deploying the Project Online
+This project is hosted on Azure and is available online for everyone to see. Deployment happens automatically whenever
+changes are pushed to GitHub.
 
-Clear browser cache and test in Incognito Mode
+## Troubleshooting Deployment Issues
+If your updates arent showing on the website, try the following steps:
+- Check GitHub Actions logs for errors.
+- Verify settings on Azure Static Web Apps.
+- Try clearing your browser cache.
 
-##  Features
-✅ Responsive navigation bar with dynamic menu toggle
-
-✅ Active link styling using NavLink
-
-✅ Hero section with interactive search bar
-
-✅ Three structured info sections: Vision, Strategy, Growth
-
-## Contribution Guidelines
-Want to contribute? Follow these steps:
-
-Fork the repository
-
-Create a branch (git checkout -b feature-branch)
-
-Commit changes (git commit -m "Added new feature")
-
-Push your branch (git push origin feature-branch)
-
-Open a Pull Request 
-
-License
-This project is for educational purposes only. Feel free to modify, expand, and experiment! 
+---
 
 
