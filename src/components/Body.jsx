@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./Body.module.css";
 
-// menuOpen passed as props from app.jsx and used to check if the menu is open
+//___menuOpen passed as props from app.jsx and used to check if the menu is open___
 export default function Body({ menuOpen }) {
   return (
 
-    // if menu is open, styles are applied to hide content, if closed  
+    //___hides the menu icon until screen size reduces.___ 
     <div className={menuOpen ? styles.hideContent : ""}>
 
-      {/* If the menu is not open display this section otherwise hide it */}
+      {/* ___If the menu is not open display this section otherwise hide it__ */}
       {!menuOpen && (
         <div className={styles.background}>
           <h1>"YOUR Vision, OUR Strategy, UNSTOPPABLE Growth". </h1>

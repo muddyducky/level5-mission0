@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
-// menuOpen and setMenuOpen are passed as props from app.jsx 
+// ___menuOpen and setMenuOpen are passed as props from app.jsx___ 
 
 export default function Navbar({ setMenuOpen, menuOpen }) {
   return (
@@ -13,23 +13,23 @@ export default function Navbar({ setMenuOpen, menuOpen }) {
         </Link>
       </div>
 
-      {/* Menu is visible in mobile view. On click function toggles visibility of the menu */}
+      {/* ___Menu is visible in mobile view. On click function toggles visibility of the menu___*/}
       <div className={styles.menu} onClick={() => setMenuOpen(!menuOpen)}>
         <img src="../../images/menu.png" alt="menuIcon" />
       </div>
 
-      {/* Checks to see if the menu is open, hides links when true */}
+      {/* ___Checks to see if the menu is open, hides links when true___ */}
       <div className={`${styles.links} ${menuOpen ? styles.showLinks : ""}`}>
         <ul>
           <li>
             
-            {/* NavLinks used to navigate to different components in the app */}
-            {/* isActive callback function is being used to highlight an active navigation link */}  
+            {/* ___NavLinks used to navigate to different components in the app___ */}
+            {/* ___isActive callback function is being used to highlight an active navigation link___ */}  
             <NavLink
               to="/about"
               className={({ isActive }) => (isActive ? styles.active : "")}
             >
-              ABOUT
+              HOME
             </NavLink>
           </li>
           <li>
