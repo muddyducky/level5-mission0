@@ -24,7 +24,7 @@ export default function Navbar({ setMenuOpen, menuOpen }) {
           <li>
             
             {/* NavLinks used to navigate to different components in the app */}
-            {/* isActive built in Navlink function and is being used to highlight an active navigation endpoint */}  
+            {/* isActive callback function is being used to highlight an active navigation link */}  
             <NavLink
               to="/about"
               className={({ isActive }) => (isActive ? styles.active : "")}
