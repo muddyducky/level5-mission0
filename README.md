@@ -24,9 +24,6 @@ This project uses the following tools and technologies to make it work effective
 - ## CSS Modules
   Keeps styles organised and specific to their section of the site.
 
-- ## ES Lint
-  Helps developers write clean, error free code.
-
 - ## Azure Static Web Apps
   Hosts the website online and applies updates automatically as they happen.
 
